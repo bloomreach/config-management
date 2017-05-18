@@ -1,0 +1,19 @@
+{
+  "config" : {
+    "config1" : {
+      "id" : 0,
+      "default-key" : "",
+      "customer" : ""
+      },
+    "config2": {
+      "config3": [""]
+      },
+    "config4": [
+        {
+          "config5": "",
+          "config6": [""]
+        }
+      ]
+    }
+  }   
+}

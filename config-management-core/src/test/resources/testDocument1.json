@@ -1,0 +1,22 @@
+{
+  "config": {
+    "config1": {
+      "id": 1,
+      "default-key": "key2",
+      "customer": "test_merchant1"
+    },
+    "config2": {
+      "config3": [""]
+    },
+    "config4": [
+      {
+        "config5": "This_Year",
+        "config6": [""]
+      },
+      {
+        "config5": "Next_Year",
+        "config6": [""]
+      }
+    ]
+  }
+}

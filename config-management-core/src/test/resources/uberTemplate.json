@@ -1,0 +1,124 @@
+{
+  "type" : "object",
+  "properties" : {
+    "config" : {
+      "fullKeyPath" : "/config",
+      "required" : ["config1", "config2"],
+      "type" : "object",
+      "additionalProperties" : true,
+      "description" : "The config component is the root of a specific customer configuration document",
+      "properties" : {
+        "config1" : {
+          "fullKeyPath" : "/config/config1",
+          "required" : [ "id", "default-key", "customer"],
+          "additionalProperties" : true,
+          "type" : "object",
+          "description" : "config1 Component",
+          "properties" : {
+            "default-key" : {
+              "fullKeyPath" : "/config/config1/default-key",
+              "description" : "Default key for customer",
+              "label" : "Default Key",
+              "default" : "",
+              "type" : "string"
+            },
+            "id" : {
+              "type" : "integer",
+              "description" : "Unique identifier for customer",
+              "label" : "Customer ID",
+              "fullKeyPath" : "/config/config1/id",
+              "default" : 0
+            },
+            "customer" : {
+              "fullKeyPath" : "/config/config1/customer",
+              "description" : "Unique name for customer",
+              "label" : "Customer Name",
+              "default" : "",
+              "type" : "string"
+            }
+          },
+          "cms-appinfo" : {
+            "label" : "account",
+            "permission" : {
+              "view" : "all@bloomreach.com",
+              "data-modify" : "all@bloomreach.com",
+              "template-modify" : "all@bloomreach.com"
+            },
+            "author" : "xyz.@bloomreach.com"
+          }
+        },
+        "config2" : {
+          "fullKeyPath" : "/config/config2",
+          "additionalProperties" : true,
+          "type" : "object",
+          "description" : "Config2 Component",
+          "properties" : {
+            "config3" : {
+              "fullKeyPath" : "/config/config2/config3",
+              "items" : {
+                "enum" : [ "", "abc", "def", "ghi", "jkl" ],
+                "description" : "Config3 selected for customer",
+                "label" : "Customer config3",
+                "default" : ""
+              },
+              "type" : "array",
+              "minItems" : 0
+            }
+          }
+        },
+        "config4" : {
+          "fullKeyPath" : "/config/config4",
+          "items" : {
+            "fullKeyPath" : "/config/config4",
+            "required" : [ "config5", "config6" ],
+            "type" : "object",
+            "additionalProperties" : true,
+            "default" : "",
+            "description" : "Item of Config4 component",
+            "properties" : {
+              "config5" : {
+                "fullKeyPath" : "/config/config4/config5",
+                "description" : "Config5 component",
+                "label" : "Config5 component",
+                "default" : "",
+                "type" : "string"
+              },
+              "config6" : {
+                "fullKeyPath" : "/config/config4/config6",
+                "items" : {
+                  "type" : "string",
+                  "description" : "Config6 component",
+                  "label" : "Config6 component",
+                  "default" : ""
+                },
+                "type" : "array",
+                "minItems" : 1
+              }
+            },
+            "cms-appinfo" : {
+              "label" : "Patterns for soft errors",
+              "permission" : {
+                "view" : "all@bloomreach.com",
+                "data-modify" : "all@bloomreach.com",
+                "template-modify" : "all@bloomreach.com"
+              },
+              "author" : "xyz.@bloomreach.com"
+            }
+          },
+          "type" : "array",
+          "minItems" : 1
+        }
+      },
+      "cms-appinfo" : {
+        "label" : "config",
+        "permission" : {
+          "view" : "all@bloomreach.com",
+          "data-modify" : "all@bloomreach.com",
+          "template-modify" : "all@bloomreach.com"
+        },
+        "author" : "xyz.@bloomreach.com"
+      }
+    }
+  },
+  "$schema" : "http://json-schema.org/draft-04/schema#"
+}
