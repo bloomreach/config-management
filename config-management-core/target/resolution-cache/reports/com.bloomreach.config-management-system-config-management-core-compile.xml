@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170502111446"/>
+		date="20170518060543"/>
 	<dependencies>
 		<module organisation="redis.clients" name="jedis">
 			<revision name="2.1.0" status="release" pubdate="20120510210431" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/jedis/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">

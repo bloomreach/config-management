@@ -9,7 +9,7 @@
 		extra-scalaVersion="2.10"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170202071304"/>
+		date="20170518060308"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.11" status="release" pubdate="20160221190721" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="4">
@@ -588,8 +588,8 @@
 				<caller organisation="org.scala-sbt" name="main-settings" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="actions" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="classfile" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
-				<caller organisation="org.scala-sbt" name="testing" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="compile" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
+				<caller organisation="org.scala-sbt" name="testing" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="task-system" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="completion" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="main" conf="compile" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.13.11"/>

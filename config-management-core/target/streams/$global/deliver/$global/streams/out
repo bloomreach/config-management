@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0m:: delivering :: com.bloomreach.config-management-system#config-management-core;1.0-SNAPSHOT :: 1.0-SNAPSHOT :: integration :: Tue May 02 11:15:09 GMT 2017[0m
-[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Tue May 02 11:15:09 GMT 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
-[0m[[0minfo[0m] [0m	delivering ivy file to /Users/amit.kumar/open_source/cms-opensource/config-management-core/target/ivy-1.0-SNAPSHOT.xml[0m
-[0m[[0mdebug[0m] [0m	deliver done (24ms)[0m
+[0m[[0minfo[0m] [0m:: delivering :: com.bloomreach.config-management-system#config-management-core;1.0-SNAPSHOT :: 1.0-SNAPSHOT :: integration :: Thu May 18 06:06:05 GMT 2017[0m
+[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Thu May 18 06:06:05 GMT 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to /Users/amit.kumar/open_source/config-management/config-management-core/target/ivy-1.0-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (22ms)[0m

@@ -4,7 +4,7 @@
 		module="config-management-core-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170202071304"
+		publication="20170518060308"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>

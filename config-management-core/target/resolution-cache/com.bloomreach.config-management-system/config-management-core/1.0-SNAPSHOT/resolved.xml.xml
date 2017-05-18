@@ -4,7 +4,7 @@
 		module="config-management-core"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20170502111446"
+		publication="20170518060543"
 	>
 		<description>
 		config-management-core
