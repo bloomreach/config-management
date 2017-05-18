@@ -1,9 +1,18 @@
 # Config Management System
 
 ## Introduction
+Config Management System is a scala based library designed to store, read, search and update json based configurations in redis
+and provide revision history on the configuration changes. This library is beneficial for all the platforms/systems which need to 
+show change in behavior based on rules (without any deployment/release). 
+
+There are multiple open source systems that meet the goals in pieces. Key-value stores like Redis or nosql databases like Cassandra 
+or document store like mongoDB are good for reading configurations at very low latency. But none of these technologies package the 
+features of read, search, update over set of json documents. Config Management System is designed to achieve this goal.
 Config Management System will consist of two libraries Config Management Core and Config Management Server.
+
 Config Management Core is an independent library that can work with json documents stored in redis. It will
 provide read, search and update features on json documents stored in redis.
+
 Config Management Server will be open sourced soon. It is expected to provide server-side APIs for all the operations.
  
 ### Examples:
