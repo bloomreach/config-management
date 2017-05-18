@@ -40,6 +40,11 @@ then it applies the JSONPath library to extract the value for exact key.
     
 ## How to use
     Please read the "How to use section" of Config Management Core
+
+## Contributors
+
+* **Amit Kumar** (kumariitr@gmail.com, amit.kumar@bloomreach.com) - Project owner
+* **Neel Choudhury** (findneel2012@gmail.com, neel.choudhury@bloomreach.com) - Project owner
  
 ## License 
   * [Apache License Version 2.0] (http://www.apache.org/licenses/LICENSE-2.0)
