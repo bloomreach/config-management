@@ -34,8 +34,7 @@ then it applies the JSONPath library to extract the value for exact key.
   * Prerequisites: Java 8, sbt, redis
   * Installation: 
     1. Do a git clone of this project
-    2. cd config-management-core  
-    3. sbt clean test:compile publish (builds your project and creates the jar)
+    2. sbt clean test:compile publish (builds your project and creates the jar)
     4. sbt eclipse (If you want to import the project to eclipse)
     
 ## How to use
