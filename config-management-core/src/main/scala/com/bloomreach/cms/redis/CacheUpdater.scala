@@ -88,8 +88,10 @@ class CacheUpdater(val host: String, val port: Int = 6379) extends LazyLogging {
     val jedisPipeline = jedis.pipelined()
     var broken = false
     try {
+      jedisPipeline.multi()
       updateParentsRecursivelyWithPipeline(realm, dbName, documentName, key, JsonMethods.parse(value), jedisPipeline)
       updateChildrenRecursivelyWithPipeline(realm, dbName, documentName, key, JsonMethods.parse(value), jedisPipeline)
+      jedisPipeline.exec()
       jedisPipeline.sync()
     } catch {
       case e: Error => {
