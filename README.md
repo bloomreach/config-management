@@ -48,6 +48,8 @@ then it applies the JSONPath library to extract the value for exact key.
     
 ## How to use
     Please read the "How to use section" of Config Management Core
+## Blog
+   [How Bloomreach Built a Scalable Configuration Management System](https://developers.bloomreach.com/blog/2019/how-bloomreach-built-a-scalable-configuration-management-system.html) 
 
 ## Contributors
 
